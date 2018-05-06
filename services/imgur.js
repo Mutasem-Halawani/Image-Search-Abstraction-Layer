@@ -9,7 +9,7 @@ exports.getImage = (search, page = 1) => {
       json: true
     }
 
-    function getPics(err, res, body) {
+    function getPics (err, res, body) {
       if (!err && res.statusCode == 200) {
         body = body.data.filter(img => {
           if (!img.is_album) {
