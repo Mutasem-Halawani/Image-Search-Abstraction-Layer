@@ -1,11 +1,11 @@
 const express = require('express')
 const router = express.Router()
-
+const path = require('path')
 const imgur = require('../services/imgur')
 const History = require('../models/history')
 
 router.get('/', (req, res) => {
-  res.send('Hello')
+  res.sendFile(path.join(__dirname, '..', 'public', 'index.html'))
 })
 
 router.get('/latest', (req, res) => {
