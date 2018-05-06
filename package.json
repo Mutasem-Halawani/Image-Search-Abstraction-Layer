@@ -1,0 +1,32 @@
+{
+  "name": "Image-Search-Abstraction-Layer",
+  "version": "1.0.0",
+  "description": "Image Search Abstraction Layer FFC Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mutasem-Halawani/Image-Search-Abstraction-Layer.git"
+  },
+  "keywords": [
+    "Express",
+    "Url",
+    "Shortener",
+    "Service",
+    "FFC"
+  ],
+  "author": "Mutasem Halawani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mutasem-Halawani/Image-Search-Abstraction-Layer/issues"
+  },
+  "homepage": "https://github.com/Mutasem-Halawani/Image-Search-Abstraction-Layer#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3",
+    "mongoose": "^5.0.8",
+    "multer": "^1.3.0"
+  }
+}

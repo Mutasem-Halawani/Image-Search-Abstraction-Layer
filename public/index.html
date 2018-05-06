@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Search Abstraction Layer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <style>
+        header, footer {
+            text-align: center;
+        }
+
+        header {
+            padding: 3rem;
+        }
+
+        h2, h3 , footer{
+            padding: 1rem 0;
+        }
+
+        input:hover {
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body class="container">
+    <header>
+        <h1>Image Search-Abstraction-Layer API</h1>
+    </header>
+    <main>
+        <h2>A freeCodeCamp Javascript Back-End Challange: Image Search-Abstraction-Layer</h2>
+        <blockquote>
+            <h4>User stories:</h4>
+            <ul>
+                <li>
+                    I can submit a FormData object that includes a file upload.
+                </li>
+                <li>
+                    When I submit something, I will receive the file size in bytes within the JSON response
+                </li>
+            </ul>
+        </blockquote>
+
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input class="btn btn-default" type="file" name="file"/>
+            <input class="btn" type="submit" value="Get File Size">
+        </form>
+    </main>
+    <footer>
+        Made by <a href="https://github.com/Mutasem-Halawani">Mutasem Halawani</a>
+    </footer>
+</body>
+</html>
